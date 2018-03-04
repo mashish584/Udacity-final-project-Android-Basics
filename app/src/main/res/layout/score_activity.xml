@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context="com.example.android.quiz.ScoreActivity">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:layout_marginTop="25dp"
+            android:text="@string/score_heading"
+            android:textColor="@color/white_bg"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/playerScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:layout_marginTop="25dp"
+            android:textAlignment="center"
+            tools:text="55"/>
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_marginTop="25dp"
+            android:textAlignment="center"
+            tools:text="You answered 3 out of 5 answers correctly."/>
+
+        <Button
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:padding="15dp"
+            android:background="@color/colorAccent"
+            android:textColor="@color/white_bg"
+            android:text="@string/play_again_text"
+            android:onClick="replayGame"/>
+
+</LinearLayout>

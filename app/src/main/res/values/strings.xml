@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">JAVASCRIPT QUIZ</string>
+    <string name="text_hint">YOUR NAME</string>
+    <string name="play_button_text">PLAY NOW</string>
+    <string name="next_button_text">NEXT</string>
+    <string name="submit_button_text">SUBMIT</string>
+    <string name="play_again_text">PLAY AGAIN</string>
+
+    <string name="ques_one">How many type of scoping rule JS have ?</string>
+    <string name="ques_one_choice_one">3</string>
+    <string name="ques_one_choice_two">4</string>
+    <string name="ques_one_choice_three">2</string>
+    <string name="ques_one_choice_four">1</string>
+    <string name="ques_one_ans">1</string>
+
+    <string name="ques_two">How many possible ways of creating new variable in javascript ?</string>
+    <string name="ques_two_choice_one">5</string>
+    <string name="ques_two_choice_two">3</string>
+    <string name="ques_two_choice_three">2</string>
+    <string name="ques_two_choice_four">1</string>
+    <string name="ques_two_ans">3</string>
+
+    <string name="ques_three">1 + "112" + 5 = ?</string>
+    <string name="ques_three_choice_one">11127</string>
+    <string name="ques_three_choice_two">11125</string>
+    <string name="ques_three_choice_three">118</string>
+    <string name="ques_three_choice_four">NaN</string>
+    <string name="ques_three_ans">11125</string>
+
+
+    <string name="ques_four">[] equivalent of number will give value ?</string>
+    <string name="ques_four_choice_one">undefined</string>
+    <string name="ques_four_choice_two">Null</string>
+    <string name="ques_four_choice_three">Nan</string>
+    <string name="ques_four_choice_four">0</string>
+    <string name="ques_four_ans">0</string>
+
+    <string name="ques_five">[] equivalent of string will give value ?</string>
+    <string name="ques_five_choice_one">Empty String</string>
+    <string name="ques_five_choice_two">Null</string>
+    <string name="ques_five_choice_three">Nan</string>
+    <string name="ques_five_choice_four">undefined</string>
+    <string name="ques_five_ans">Empty String</string>
+
+    <string name="ques_six">[[1,2,3]] equivalent of string will give value ?</string>
+    <string name="ques_six_choice_one">[[1,2,3]]</string>
+    <string name="ques_six_choice_two">1,2,3</string>
+    <string name="ques_six_choice_three">[]</string>
+    <string name="ques_six_choice_four">"[1,2,3]"</string>
+    <string name="ques_six_ans">1,2,3</string>
+    <string name="see_your_score">SUBMIT</string>
+    <string name="score_heading">SCORE</string>
+
+</resources>
